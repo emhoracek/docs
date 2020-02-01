@@ -1,6 +1,8 @@
 .DS_Store
-site/
+site
+!site/_redirects
 docsync/iron.json
 docsync/config.sh
 docsync/*.zip
 _site/
+venv

@@ -1,20 +1,9 @@
 # This section controls the navigation and nesting of pages, including their titles
 pages:
 - Home: 'index.md'
-- Products:
-  - Ask User Guide: 'products/askuserguide.md'
-  - Ask Technical Docs: 'products/ask.md'
-  - Talk: 'products/talk.md'
-- Get Involved:
-  - Introduction: 'contribute/index.md'
-  - Contribute code: 'contribute/writing_code.md'
-  - Contribute to moderation style guide: 'contribute/docs_style_guide.md'
-  - Write documentation: 'contribute/writing_documentation.md'
-  - Code best practices: 'contribute/coding_style_guide.md'
-  - Submit feature requests: 'contribute/reporting_bugs.md'
-  - Report bugs: 'contribute/reporting_bugs.md'
-  - Our Code of Conduct: 'contribute/code_of_conduct.md'
-- Contact: 'contact/support.md'
+- Ask User Guide: 'products/askuserguide.md'
+- Ask Technical Docs: 'products/ask.md'
+
 
 
 
@@ -22,12 +11,10 @@ pages:
 # Site specific MkDocs configuration for Coral Project
 
 site_name: Coral Project
-
+site_dir: 'site/ask'
 repo_name: 'GitHub'
 
 docs_dir: 'docs_dir'
-
-theme_dir: 'themes'
 
 theme: 'material'
 
